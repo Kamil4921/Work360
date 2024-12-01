@@ -22,7 +22,7 @@
     
          "Topics": [
            {
-             "Name": "topic.1",
+             "Name": "employee-topic",
              "Properties": {
                "DefaultMessageTimeToLive": "PT1H",
                "DuplicateDetectionHistoryTimeWindow": "PT20S",
