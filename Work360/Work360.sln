@@ -3,12 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work360.APIGateway", "Work360.APIGateway", "{8D5BDD13-35B0-4099-84EA-B2BDB00C2634}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work360.Services.Emplyee", "Work360.Services.Emplyee", "{0C0BCF3B-6165-4506-9068-36A7B1036F58}"
+	ProjectSection(SolutionItems) = preProject
+		..\Work360.Services.Employee\Dockerfile = ..\Work360.Services.Employee\Dockerfile
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work360.Services.Identity", "Work360.Services.Identity", "{05A3A2B0-345D-4369-8FAE-4C920141C7CF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work360.Services.Leaves", "Work360.Services.Leaves", "{6D8CFC78-F1E3-4AD7-9FD6-3780425F11A3}"
+	ProjectSection(SolutionItems) = preProject
+		..\Work360.Services.Leaves\Dockerfile = ..\Work360.Services.Leaves\Dockerfile
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work360.Services.Notification", "Work360.Services.Notification", "{4FC9CECF-1969-41D7-BB92-1A9C3EE3ACA9}"
+	ProjectSection(SolutionItems) = preProject
+		..\Work360.Services.Notification\Dockerfile = ..\Work360.Services.Notification\Dockerfile
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1E9E993A-5B7D-405E-AF75-155F69E0C23A}"
 EndProject
