@@ -95,7 +95,19 @@
                  "ForwardTo": "",
                  "RequiresSession": false
                }
-             }
+             },
+             {
+              "Name": "subscription.4",
+              "Properties": {
+                "DeadLetteringOnMessageExpiration": false,
+                "DefaultMessageTimeToLive": "PT1H",
+                "LockDuration": "PT1M",
+                "MaxDeliveryCount": 5,
+                "ForwardDeadLetteredMessagesTo": "",
+                "ForwardTo": "",
+                "RequiresSession": false
+              }
+            }
            ]
          }
        ]
